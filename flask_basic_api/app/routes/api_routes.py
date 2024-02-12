@@ -4,8 +4,8 @@ from flask import Blueprint
 
 api_routes = Blueprint('api', __name__)
 
-@api_routes.route('/greet', methods=['GET'])
-def greet():
+@api_routes.route('/data', methods=['GET'])
+def data():
     data = {'message': 'Welcome to JOE API!'}
     return jsonify(data)
 
