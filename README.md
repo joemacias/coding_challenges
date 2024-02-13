@@ -4,10 +4,10 @@ This project has purpose of define different kind of PoC, testing concepts and s
 
 ## Table of Contents
 
-- [Token bucket rate limit v1](#Basic API with rate limit)
+- [Token_bucket_rate_limit_v1](#Token_bucket_rate_limit_v1)
 - [Backlog](#Backlog)
 
-## Basic API with rate limit
+## Token_bucket_rate_limit_v1
 
 This project test a basic Token bucket rate limit, which in this V1 only allows manual validation (F5) but apply rate limit in endpoint http://127.0.0.1:5000/api/limited 
 
